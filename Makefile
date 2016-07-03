@@ -2,7 +2,6 @@ default:
 	make compress-video
 	make compress-video-ui
 	make compress-video-update
-	mv ./compress-video-ui/dist ./dist
 
 .PHONY: compress-video	
 compress-video:
@@ -10,7 +9,7 @@ compress-video:
 
 .PHONY: compress-video-ui	
 compress-video-ui:
-	cd ./compress-video-ui && make
+	cd ./compress-video-ui && make && mv ./dist ../dist && make clean
 
 .PHONY: compress-video-update	
 compress-video-update:
