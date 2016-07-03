@@ -1,0 +1,9 @@
+[submodule "compress-video-ui"]
+	path = compress-video-ui
+	url = https://github.com/YLiLarry/compress-video-ui.git
+[submodule "compress-video"]
+	path = compress-video
+	url = https://github.com/YLiLarry/compress-video.git
+[submodule "compress-video-update"]
+	path = compress-video-update
+	url = https://github.com/YLiLarry/compress-video-update.git
