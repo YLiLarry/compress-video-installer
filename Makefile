@@ -9,7 +9,7 @@ compress-video:
 
 .PHONY: compress-video-ui	
 compress-video-ui:
-	cd ./compress-video-ui && make && mv ./dist ../dist && make clean
+	cd ./compress-video-ui && make && rm -rf ../dist && mv ./dist ../dist && make clean
 
 .PHONY: compress-video-update	
 compress-video-update:
